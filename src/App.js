@@ -7,7 +7,12 @@ export default function App() {
     <div className="App">
       <Searchform />
       <CurrentTemperature />
-      <p className="coder">Open-source code by Josefina Valtier</p>
+      <div className="coder">
+        <a href="https://github.com/josevaltier/weather-react" target="_blank">
+          Open-source code
+        </a>{" "}
+        by Josefina Valtier
+      </div>
     </div>
   );
 }
