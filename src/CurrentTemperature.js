@@ -10,8 +10,8 @@ export default function CurrentTemperature() {
         <div className="col-5 main-temp">30ºC</div>
 
         <img
-          src="src/images/clouds.png"
-          alt="clouds"
+          src="src/images/partly_cloudy.png"
+          alt="partly cloudy"
           className="main-emoji"
           id="descriptionIcon"
         />
