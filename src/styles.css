@@ -46,13 +46,15 @@ a:hover {
 .main-emoji {
   max-width: 140px;
   display: block;
-  margin: -10px 0 0 400px;
+  margin: -15px 0 0 300px;
 }
 
 .main-temp {
   font-size: 35px;
   font-weight: strong;
-  text-align: left;
+  position: relative;
+  left: -80px;
+  top: 10px;
 }
 
 .min-max-temp,
@@ -61,7 +63,7 @@ a:hover {
 }
 
 .min-max-temp {
-  margin-top: 8px;
+  margin-top: 30px;
 }
 .min-max-temp:hover {
   background-color: #f8ed86;
