@@ -8,7 +8,11 @@ export default function App() {
       <Searchform />
       <CurrentTemperature />
       <div className="coder">
-        <a href="https://github.com/josevaltier/weather-react" target="_blank">
+        <a
+          href="https://github.com/josevaltier/weather-react"
+          target="_blank"
+          rel="noreferrer"
+        >
           Open-source code
         </a>{" "}
         by Josefina Valtier
